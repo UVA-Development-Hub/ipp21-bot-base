@@ -1,5 +1,4 @@
-
-
+require('dotenv').config();
 const MasterBot = new require('discord.js').Client();
 
 async function MasterLogin() {
