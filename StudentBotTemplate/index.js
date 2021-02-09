@@ -26,7 +26,7 @@ async function onMessage(msg) {
 
 // Behavior independent of messages goes here.
 // Function executed every 5 seconds.
-const time = 0;
+var time = 0;
 function onInterval(Client) {
     // There's some interesting syntax going on here but your code goes inside the inner curly braces.
     return async () => {
