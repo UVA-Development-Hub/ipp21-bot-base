@@ -1,5 +1,5 @@
 require('dotenv').config();
-const Bot = new require('discord.js').Client();
+const Bot = new (require('discord.js').Client)();
 
 var TOKEN = process.env.DISCORDTOKEN;
 var NAME = process.env.DISCORDNAME;
